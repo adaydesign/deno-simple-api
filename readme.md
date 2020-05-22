@@ -4,14 +4,25 @@
 
 see : https://deno.land/#installation
 
-## Run Code
+## Run Code for developer
 
 ```
 $ deno run --allow-net server.ts
 ```
 
-## Test API Example with REST Client
+## Install Code by Deno
 
+```
+$ deno install --allow-read --allow-net -n deno-simple-api https://raw.githubusercontent.com/adaydesign/deno-simple-api/master/server.ts
+```
+
+## Run by installed package
+
+```
+$ deno-simple-api
+```
+
+## Test API Example with REST Client (VS Code Plug-in)
 
 |Method | URI |
 |-----:|:----|
