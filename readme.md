@@ -10,7 +10,7 @@ see : https://deno.land/#installation
 $ deno run --allow-net server.ts
 ```
 
-## Install Code by Deno
+## Install using Deno Install
 
 ```
 $ deno install --allow-read --allow-net -n deno-simple-api https://raw.githubusercontent.com/adaydesign/deno-simple-api/master/server.ts
