@@ -1,0 +1,31 @@
+@url = http://localhost:5100/api/v1/products
+
+###
+GET {{url}}
+
+###
+GET {{url}}/990461db-4e77-4f12-a1c2-bf02d01207ba
+
+
+###
+POST {{url}}
+Content-Type: application/json
+
+{
+    "name":"จอมอนิเตอร์",
+    "description":"จอมอนิเตอร์ 28 นิ้ว 190Hz 8K",
+    "price": 37000.00,
+    "priceUnit": "บาท"
+}
+
+###
+PUT {{url}}/xxxxx
+Content-Type: application/json
+
+{
+    "name":"คอมพิวเตอร์โน๊ตบุ๊ค -ใหม่!!",
+    "price": 38000.00
+}
+
+###
+DELETE {{url}}/1
